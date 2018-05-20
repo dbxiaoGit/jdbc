@@ -6,3 +6,5 @@
 * controller里面return模版名字未返回对应的页面，原来是controller的注解用错了，改为@Controller即可，看来@RestController不是随便用的
 * junit test druid 报错空指针，没找到原因。。。只能把test注释掉了
 * gradle打的包resource里面的application。yml配置没有生效，原因未知。。。
+* 参考https://blog.csdn.net/fs1360472174/article/details/79234180
+* 依然未解决。。。

@@ -58,4 +58,5 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'com.alibaba:druid-spring-boot-starter:1.1.9'
     implementation 'mysql:mysql-connector-java:5.1.46'
+    implementation 'org.yaml:snakeyaml:1.21'
 }

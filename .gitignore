@@ -12,6 +12,7 @@ Thumbs.db
 bin
 target
 build/
+logs/
 .gradle
 
 # Eclipse Project Files #
