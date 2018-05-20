@@ -1,0 +1,70 @@
+2018-05-20 23:52:42,643 [ main ] - [ INFO  ] [ cn.x.App : 50 ] -
+				Starting App on x-PC with PID 3264 (C:\Users\x\eclipse-workspace\jdbc\bin\main started by x in C:\Users\x\eclipse-workspace\jdbc)
+2018-05-20 23:52:42,648 [ main ] - [ INFO  ] [ cn.x.App : 659 ] -
+				No active profile set, falling back to default profiles: default
+2018-05-20 23:52:42,722 [ main ] - [ INFO  ] [ o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : 590 ] -
+				Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@175c2241: startup date [Sun May 20 23:52:42 CST 2018]; root of context hierarchy
+2018-05-20 23:52:44,704 [ main ] - [ INFO  ] [ o.s.b.w.e.tomcat.TomcatWebServer : 91 ] -
+				Tomcat initialized with port(s): 9002 (http)
+2018-05-20 23:52:44,725 [ main ] - [ INFO  ] [ o.a.coyote.http11.Http11NioProtocol : 180 ] -
+				Initializing ProtocolHandler ["http-nio-9002"]
+2018-05-20 23:52:44,743 [ main ] - [ INFO  ] [ o.a.catalina.core.StandardService : 180 ] -
+				Starting service [Tomcat]
+2018-05-20 23:52:44,744 [ main ] - [ INFO  ] [ o.a.catalina.core.StandardEngine : 180 ] -
+				Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-20 23:52:44,757 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.AprLifecycleListener : 180 ] -
+				The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_111/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_111/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_111/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\strawberry\c\bin;C:\strawberry\perl\bin;d:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\x\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\x\AppData\Local\Programs\Python\Python36\;C:\Users\x\AppData\Local\Programs\Fiddler;C:\Users\x\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;D:\tools\android-sdk_r24.4.1-windows\android-sdk-windows\tools;D:\tools\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools;D:\tools\apache-maven-3.5.2\bin;D:\tools\gradle-4.7-all\gradle-4.7\bin;C:\Users\x\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\x\AppData\Local\Programs\Python\Python36\;C:\Users\x\AppData\Local\Programs\Fiddler;C:\Users\x\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;D:\tools\eclipse-jee-oxygen-3a-win32-x86_64\eclipse;;.]
+2018-05-20 23:52:44,887 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.c.C.[Tomcat].[localhost].[/] : 180 ] -
+				Initializing Spring embedded WebApplicationContext
+2018-05-20 23:52:44,888 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.web.context.ContextLoader : 285 ] -
+				Root WebApplicationContext: initialization completed in 2166 ms
+2018-05-20 23:52:45,097 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.b.w.s.ServletRegistrationBean : 185 ] -
+				Servlet dispatcherServlet mapped to [/]
+2018-05-20 23:52:45,099 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.b.w.s.ServletRegistrationBean : 185 ] -
+				Servlet statViewServlet mapped to [/druid/*]
+2018-05-20 23:52:45,104 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.b.w.s.FilterRegistrationBean : 244 ] -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-20 23:52:45,105 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.b.w.s.FilterRegistrationBean : 244 ] -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-20 23:52:45,106 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.b.w.s.FilterRegistrationBean : 244 ] -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-20 23:52:45,106 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.b.w.s.FilterRegistrationBean : 244 ] -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-20 23:52:45,106 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.b.w.s.FilterRegistrationBean : 257 ] -
+				Mapping filter: 'webStatFilter' to urls: [/*]
+2018-05-20 23:52:45,608 [ main ] - [ INFO  ] [ o.s.w.s.h.SimpleUrlHandlerMapping : 373 ] -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-20 23:52:45,911 [ main ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerAdapter : 574 ] -
+				Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@175c2241: startup date [Sun May 20 23:52:42 CST 2018]; root of context hierarchy
+2018-05-20 23:52:46,021 [ main ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] -
+				Mapped "{[/clearMessage],methods=[GET]}" onto public java.lang.String cn.x.controller.MsgController.clearMessage(org.springframework.ui.ModelMap)
+2018-05-20 23:52:46,022 [ main ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] -
+				Mapped "{[/recoverMessage],methods=[GET]}" onto public java.lang.String cn.x.controller.MsgController.recoverMessage(org.springframework.ui.ModelMap)
+2018-05-20 23:52:46,028 [ main ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-20 23:52:46,030 [ main ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-20 23:52:46,083 [ main ] - [ INFO  ] [ o.s.w.s.h.SimpleUrlHandlerMapping : 373 ] -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-20 23:52:46,084 [ main ] - [ INFO  ] [ o.s.w.s.h.SimpleUrlHandlerMapping : 373 ] -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-20 23:52:46,253 [ main ] - [ INFO  ] [ o.s.b.a.w.s.WelcomePageHandlerMapping : 61 ] -
+				Adding welcome page template: index
+2018-05-20 23:52:46,628 [ main ] - [ INFO  ] [ o.s.j.e.a.AnnotationMBeanExporter : 433 ] -
+				Registering beans for JMX exposure on startup
+2018-05-20 23:52:46,630 [ main ] - [ INFO  ] [ o.s.j.e.a.AnnotationMBeanExporter : 895 ] -
+				Bean with name 'masterDataSource' has been autodetected for JMX exposure
+2018-05-20 23:52:46,632 [ main ] - [ INFO  ] [ o.s.j.e.a.AnnotationMBeanExporter : 895 ] -
+				Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-05-20 23:52:46,640 [ main ] - [ INFO  ] [ o.s.j.e.a.AnnotationMBeanExporter : 668 ] -
+				Located MBean 'masterDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=masterDataSource,type=DruidDataSource]
+2018-05-20 23:52:46,643 [ main ] - [ INFO  ] [ o.s.j.e.a.AnnotationMBeanExporter : 668 ] -
+				Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-05-20 23:52:46,657 [ main ] - [ INFO  ] [ o.a.coyote.http11.Http11NioProtocol : 180 ] -
+				Starting ProtocolHandler ["http-nio-9002"]
+2018-05-20 23:52:46,671 [ main ] - [ INFO  ] [ o.a.tomcat.util.net.NioSelectorPool : 180 ] -
+				Using a shared selector for servlet write/read
+2018-05-20 23:52:46,695 [ main ] - [ INFO  ] [ o.s.b.w.e.tomcat.TomcatWebServer : 206 ] -
+				Tomcat started on port(s): 9002 (http) with context path ''
+2018-05-20 23:52:46,700 [ main ] - [ INFO  ] [ cn.x.App : 59 ] -
+				Started App in 4.511 seconds (JVM running for 5.2)

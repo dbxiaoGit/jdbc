@@ -21,6 +21,23 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'application'
 
+sourceSets {
+    main {
+        java {
+            srcDir 'src/main/java' // 指定源码目录
+        }
+        resources {
+            srcDir 'src/main/resources' //资源目录
+        }
+    }
+}
+
+processResources {
+    from('src/main/java') {
+        include '**/*'
+    }
+}
+
 mainClassName = 'cn.x.App'
 
 bootJar {

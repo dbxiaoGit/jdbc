@@ -3,33 +3,37 @@ package cn.x.controller;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
 
 import cn.x.services.MsgService;
 
 /**
-* Created by 136187300@qq.com on 2018Äê5ÔÂ20ÈÕ.
+* Created by 136187300@qq.com on 2018å¹´5æœˆ20æ—¥ã€‚
 */
 
-@RestController
+@Controller
 public class MsgController {
+	
+	Logger logger = LoggerFactory.getLogger(getClass());
 
 	@Autowired
 	private MsgService msgService;
 	
-	Logger logger = LoggerFactory.getLogger(getClass());
-	
-	@RequestMapping("/clearMessage")
-	public void clearMessage() {
-		logger.info("recoverMessage");
-		msgService.clearMessage();
+	@GetMapping("/clearMessage")
+	public String clearMessage(ModelMap map) {
+		logger.info("MsgController clearMessage");
+		String resultMessage = msgService.clearMessage();
+		map.addAttribute("message", resultMessage);
+		return "result";
 	}
 	
-	@RequestMapping("/recoverMessage")
-	public void recoverMessage() {
-		logger.info("recoverMessage");
-		msgService.recoverMessage();
-
+	@GetMapping("/recoverMessage")
+	public String recoverMessage(ModelMap map) {
+		logger.info("MsgController recoverMessage");
+		String resultMessage = msgService.recoverMessage();
+		map.addAttribute("message", resultMessage);
+		return "result";
 	}
 }

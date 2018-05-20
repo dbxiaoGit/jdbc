@@ -20,11 +20,11 @@ public class MasterDataSourcesConfig {
 	@Bean(name = "masterDataSource")
 	public DruidDataSource druidDataSource() {
 		DruidDataSource dataSource = new DruidDataSource();
-		dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8");
-		dataSource.setUsername("root"); 
-		dataSource.setPassword(""); 
-		dataSource.setInitialSize(3); 
-		dataSource.setMaxActive(20); 
+		//dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8");
+		//dataSource.setUsername("root"); 
+		//dataSource.setPassword(""); 
+		//dataSource.setInitialSize(3); 
+		//dataSource.setMaxActive(20); 
 		return dataSource;
 	}
 
