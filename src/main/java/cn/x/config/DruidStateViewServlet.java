@@ -1,4 +1,4 @@
-package cn.x;
+package cn.x.config;
 
 import com.alibaba.druid.support.http.StatViewServlet;
 

@@ -1,4 +1,4 @@
-package cn.x;
+package cn.x.config;
 
 import javax.sql.DataSource;
 

@@ -1,4 +1,4 @@
-package cn.x;
+package cn.x.entity;
 
 public class User {
 	private int id;
