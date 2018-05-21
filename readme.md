@@ -21,3 +21,14 @@
 
 > 然后./gradlew build ，成功后将在build\poms目录下生成pom-default.xml文件，把它复制到根目录下，改名成pom.xml即可
 * maven -> gradle : gradle init --type pom
+* eclipse 中 window-preferences-gradle 中选第二个 local installation directory会报错Synchronize Gradle projects with workspace failed due to an error in the referenced Gradle build.
+Could not run build action using Gradle installation 'D:\tools\gradle-4.7-bin\gradle-4.7'.
+
+A problem occurred configuring root project 'msg'.
+Could not resolve all artifacts for configuration ':classpath'.
+Could not find org.springframework.boot:spring-boot-gradle-plugin:2.0.2.RELEASE.
+Searched in the following locations:
+    http://maven.aliyun.com/nexus/content/groups/public/org/springframework/boot/spring-boot-gradle-plugin/2.0.2.RELEASE/spring-boot-gradle-plugin-2.0.2.RELEASE.pom
+    http://maven.aliyun.com/nexus/content/groups/public/org/springframework/boot/spring-boot-gradle-plugin/2.0.2.RELEASE/spring-boot-gradle-plugin-2.0.2.RELEASE.jar
+Required by:
+    project :
