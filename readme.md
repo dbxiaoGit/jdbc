@@ -32,3 +32,16 @@ Searched in the following locations:
     http://maven.aliyun.com/nexus/content/groups/public/org/springframework/boot/spring-boot-gradle-plugin/2.0.2.RELEASE/spring-boot-gradle-plugin-2.0.2.RELEASE.jar
 Required by:
     project :
+    
+    
+    
+* 下面加了个东西，yml配置就生效了
+* 。。。
+sourceSets {
+    main {
+        resources {
+            srcDirs "src/main/resources", "src/main/configs"
+        }
+    }
+}
+
