@@ -8,3 +8,11 @@
 * gradle打的包resource里面的application。yml配置没有生效，原因未知。。。
 * 参考https://blog.csdn.net/fs1360472174/article/details/79234180
 * 依然未解决。。。
+* gradle -> maven :在build.gradle中增加以下内容(group,version可自行修改，artifactId默认为目录名称)
+> apply plugin: 'java'
+> apply plugin: 'maven'
+> group = 'com.101tec'
+> version = '0.7-dev'
+> sourceCompatibility = 1.6
+> 然后./gradlew build ，成功后将在build\poms目录下生成pom-default.xml文件，把它复制到根目录下，改名成pom.xml即可
+* maven -> gradle : gradle init --type pom
